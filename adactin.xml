@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="keysToSend" value="Bala1995"></parameter>
+	  <parameter name="pass" value="12345678"></parameter>
+	  <parameter name="firstname" value="bala"></parameter>
+	  <parameter name="lastname" value="murugan"></parameter>
+	  <parameter name="address" value="trichy"></parameter>
+	  <parameter name="card" value="1234567890123456"></parameter>
+	  <parameter name="cvv" value="456"></parameter>
+    <classes>
+      <class name="org.basic.AdactinTaskUsingTestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
