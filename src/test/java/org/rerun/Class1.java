@@ -24,9 +24,14 @@ public class Class1 {
 	private void tc04() {
 	Assert.assertTrue(false);
 		System.out.println("123456789");
+		System.out.println("balamurugan");
+
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+
+		System.out.println("balamurugan");
+
 	}
 
 }
