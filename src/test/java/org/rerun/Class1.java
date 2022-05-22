@@ -1,7 +1,11 @@
 package org.rerun;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Class1 {
 	@Test
@@ -21,6 +25,13 @@ public class Class1 {
 	Assert.assertTrue(false);
 		System.out.println("123456789");
 		System.out.println("balamurugan");
+
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
+		System.out.println("balamurugan");
+
 	}
 
 }
